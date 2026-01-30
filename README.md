@@ -79,24 +79,24 @@ Customer churn is one of the most critical metrics for subscription-based busine
              ▼                           ▼
 ┌────────────────────────┐  ┌───────────────────────────────┐
 │  PHASE 2: POWER BI     │  │  PHASE 3: MACHINE LEARNING    │
-│  ┌──────────────────┐  │  │  ┌────────────────────────┐  │
-│  │ Data Modeling    │  │  │  │ Data Preprocessing     │  │
-│  └────────┬─────────┘  │  │  └──────────┬─────────────┘  │
-│           ▼             │  │             ▼                 │
-│  ┌──────────────────┐  │  │  ┌────────────────────────┐  │
-│  │ Visualizations   │  │  │  │ Feature Engineering    │  │
-│  │ • Summary        │  │  │  └──────────┬─────────────┘  │
+│  ┌──────────────────┐  │  │  ┌────────────────────────┐   │
+│  │ Data Modeling    │  │  │  │ Data Preprocessing     │   │
+│  └────────┬─────────┘  │  │  └──────────┬─────────────┘   │
+│           ▼             │  │             ▼                │
+│  ┌──────────────────┐  │  │  ┌────────────────────────┐   │
+│  │ Visualizations   │  │  │  │ Feature Engineering    │   │
+│  │ • Summary        │  │  │  └──────────┬─────────────┘   │
 │  │ • Prediction     │  │  │             ▼                 │
-│  │ • 15+ Charts     │  │  │  ┌────────────────────────┐  │
-│  └──────────────────┘  │  │  │ Random Forest Model    │  │
-│                         │  │  └──────────┬─────────────┘  │
-└─────────────────────────┘  │             ▼                 │
+│  │ • 15+ Charts     │  │  │  ┌────────────────────────┐   │
+│  └──────────────────┘  │  │  │ Random Forest Model    │   │
+│                         │  │  └──────────┬────────────┘  │
+└─────────────────────────┘  │             ▼                │
                              │  ┌────────────────────────┐  │
                              │  │ Streamlit Web App      │  │
                              │  │ • Real-time Prediction │  │
                              │  │ • Retention Strategies │  │
                              │  └────────────────────────┘  │
-                             └───────────────────────────────┘
+                             └──────────────────────────────┘
 ```
 
 ---
@@ -283,7 +283,7 @@ The solution consists of **2 main dashboards**:
 
 ### 📋 Dashboard 1: Summary Dashboard
 
-![Summary Dashboard](https://raw.githubusercontent.com/Subodhitchouhan/Customer-Churn-Analysis/main/screenshots/summary_dashboard.png)
+![Summary Dashboard](SUMMARY_DASHBOARD.png)
 
 #### Key Metrics Cards
 
