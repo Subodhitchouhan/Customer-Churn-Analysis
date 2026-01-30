@@ -8,15 +8,33 @@ st.set_page_config(
     layout="centered"
 )
 
+# # ---------------- LOAD MODEL ----------------
+# @st.cache_resource
+# def load_model():
+#     return joblib.load("churn_model.pkl")
+
+# model = load_model()
+
+# # EXACT features used during training
+# FEATURES = model.feature_names_in_
+
 # ---------------- LOAD MODEL ----------------
 @st.cache_resource
 def load_model():
-    return joblib.load("churn_model.pkl")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(base_dir, "churn_model.pkl")
+
+    if not os.path.exists(model_path):
+        st.error(f"Model file not found at: {model_path}")
+        st.stop()
+
+    return joblib.load(model_path)
 
 model = load_model()
 
 # EXACT features used during training
 FEATURES = model.feature_names_in_
+
 
 # ---------------- CHURN ANALYSIS FUNCTIONS ----------------
 def analyze_churn_reasons(input_df, prob):
