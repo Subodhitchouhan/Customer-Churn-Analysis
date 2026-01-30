@@ -10,7 +10,7 @@
 
 *A complete end-to-end customer churn analysis project leveraging SQL, Power BI, and Machine Learning*
 
-[Live Demo](#) • [Report Bug](https://github.com/Subodhitchouhan/Customer-Churn-Analysis/issues) • [Request Feature](https://github.com/Subodhitchouhan/Customer-Churn-Analysis/issues)
+[Live Demo](https://credit-risk-analysis-bysubodhit.streamlit.app/) • [Report Bug](https://github.com/Subodhitchouhan/Customer-Churn-Analysis/issues) • [Request Feature](https://github.com/Subodhitchouhan/Customer-Churn-Analysis/issues)
 
 </div>
 
