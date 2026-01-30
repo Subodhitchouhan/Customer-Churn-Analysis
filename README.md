@@ -479,7 +479,7 @@ The solution consists of **2 main dashboards**:
 
 ### 🎯 Dashboard 2: Prediction Dashboard
 
-![Prediction Dashboard](https://raw.githubusercontent.com/Subodhitchouhan/Customer-Churn-Analysis/main/screenshots/prediction_dashboard.png)
+![Prediction Dashboard](PREDICTION_DASHBOARD.png)
 
 #### Purpose
 Identify and prioritize at-risk customers (newly joined) who are likely to churn based on ML predictions.
@@ -1138,27 +1138,13 @@ def analyze_churn_reasons(input_df, prob):
 
 ### 🎨 Application Screenshots
 
-#### Prediction Interface
+![App Screenshot](APP_STARTING.png)
+![](APP_PREDICTION.png)
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  📊 Customer Churn Prediction & Retention               │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  Basic Information       │  Customer Profile            │
-│  ┌────────────────┐     │  ┌────────────────┐         │
-│  │ Gender: Male   │     │  │ Tenure: 8 mo   │         │
-│  │ Age: 35        │     │  │ Referrals: 0   │         │
-│  │ Married: Yes   │     │  │ Contract: M-M  │         │
-│  └────────────────┘     │  └────────────────┘         │
-│                                                         │
-│  ▼ Service Details                                      │
-│  ▼ Billing & Payment                                    │
-│                                                         │
-│  [Predict Churn Risk] 🔮                               │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+### 🚀 APP LINK
+[APP LINK](https://customer-churn-analysis-bysubodhit.streamlit.app/)
+
+
 
 ---
 
@@ -1709,11 +1695,11 @@ of this software and associated documentation files...
 
 ## 👨‍💻 Author
 
-**Subodhi Tchouhan**
+**Subodhit Chouhan**
 
 - 🐙 GitHub: [@Subodhitchouhan](https://github.com/Subodhitchouhan)
 - 💼 LinkedIn: [Your LinkedIn Profile]
-- 📧 Email: your.email@example.com
+- 📧 Email: chouhansubodhit@gamil.com
 - 🌐 Portfolio: [Your Portfolio Website]
 
 ---
@@ -1732,28 +1718,9 @@ of this software and associated documentation files...
 
 If you have any questions or need help with the project:
 
-- 📧 Email: your.email@example.com
+- 📧 Email: chouhansubodhit@gmail.com
 - 🐛 [Open an Issue](https://github.com/Subodhitchouhan/Customer-Churn-Analysis/issues)
 - 💬 [Start a Discussion](https://github.com/Subodhitchouhan/Customer-Churn-Analysis/discussions)
 
 ---
 
-## ⭐ Star History
-
-If you find this project helpful, please consider giving it a star! ⭐
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Subodhitchouhan/Customer-Churn-Analysis&type=Date)](https://star-history.com/#Subodhitchouhan/Customer-Churn-Analysis&Date)
-
----
-
-<div align="center">
-
-### 💙 Made with passion for data science and customer success
-
-**[⬆ Back to Top](#-customer-churn-analysis--prediction-system)**
-
----
-
-*Last Updated: January 31, 2026*
-
-</div>
